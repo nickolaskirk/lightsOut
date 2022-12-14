@@ -1,0 +1,37 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+    list-style: none;
+    width: 700px;
+}
+
+.flex-item {
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    border: 1px rgb(113, 197, 102) solid;
+}
+
+.on{
+    background-color: rgb(113, 197, 102);
+}
+
+.off{
+    background-color: white;
+}
+
+.flex-item:hover{
+    box-shadow: 10px 5px 5px grey;
+    cursor: pointer;
+}
